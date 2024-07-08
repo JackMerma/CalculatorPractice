@@ -26,6 +26,8 @@ double multiply(double, double);
  * Divide two doubles
  * Example:
  * 	divide(2.0, 3.5) = 0.571428
+ *
+ * Returns 0 if the second number is 0.0
  */
 double divide(double, double);
 
@@ -40,6 +42,8 @@ double pow(double, double);
  * Square root of a double 
  * Example:
  * 	sqrt(2.0) = 1.414213
+ *
+ * Returns 0 if the number is 0.0
  */
 double sqrt(double);
 
